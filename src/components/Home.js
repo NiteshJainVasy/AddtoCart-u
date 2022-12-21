@@ -26,16 +26,12 @@ function Home(props) {
                         ()=>{props.addToCartHandler({pice:1000,name:'i phone 11'}); setItems(true)}
                         }>
                         Add To Cart</button>
-{console.log("#@22222222222", props.addToCartHandler)}
-
-
-{console.log(".addToCartHandler.addToCartHandler.addToCartHandler.addToCartHandler", props.data)}
                         {items &&   props.data.length>0 &&
                         <button 
                     onClick={
                         ()=>{props.removeToCartHandler({pice:1000,name:'i phone 11'})}
                         }>
-                        Remove To Cart</button>}
+                        Remove </button>}
                 </div>
             </div>
 
